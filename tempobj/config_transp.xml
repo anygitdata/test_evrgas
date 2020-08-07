@@ -1,0 +1,17 @@
+<root>
+  <title>
+    Тестовое задание "Еврогаз"
+  </title>
+
+  <lst_transp CirclePerimeterSize="40">    
+    <Truck StatedSpeed="90" ProbOccurEvent="0.015" Weight="1500" indexobj="trunct_01" />
+    <Truck StatedSpeed="80" Weight="3000" indexobj="trunct_02" />
+    
+    <Car StatedSpeed="140" Number_pass="2" indexobj="car_01" />
+    <Car StatedSpeed="120" Number_pass="4" indexobj="car_02" />
+
+    <Motorcycle StatedSpeed="120" Sidecar="0" indexobj="motorcycle_01" />
+    <Motorcycle StatedSpeed="90" Sidecar="1" ProbOccurEvent="0.02" indexobj="moto_cidecar_01" />        
+    
+  </lst_transp>  
+</root>
